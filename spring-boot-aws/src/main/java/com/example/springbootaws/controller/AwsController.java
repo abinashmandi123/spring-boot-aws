@@ -11,4 +11,8 @@ public class AwsController {
 		return "Welcome to AWS Deployment";
 	}
 
+	@GetMapping("/")
+	public String sayHello() {
+		return "Hello AWS!";
+	}
 }
